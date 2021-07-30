@@ -1,0 +1,62 @@
+@media only screen and (max-width: 990px) {
+    #containerAboutUs {
+      height:auto;
+    }
+    
+    #containerAboutUsSecondary{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+
+    }
+
+    #containerAboutUsText{
+      width: 100%;
+    }
+
+    #containerCategoriesSection{
+      height:auto;
+    }
+
+    #cardDeckCategories{
+      display: inline-block;
+      width: 60%;
+    }
+
+    .cardCategories{
+
+      margin-bottom: 15px !important;
+   
+    }
+
+    .imgCardCategories{
+
+      height: 300px;
+
+    
+    }
+
+
+  }
+
+
+@media only screen and (min-width: 991px){
+  #cardDeckCategories{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+
+@media only screen and (max-width: 450px){
+
+  #cardDeckCategories{
+    width: 100%;
+  }
+
+}
