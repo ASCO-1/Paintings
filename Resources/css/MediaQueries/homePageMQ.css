@@ -1,59 +1,92 @@
-@media only screen and (max-width: 990px) {
-    #containerAboutUs {
-      height:auto;
-    }
-    
-    #containerAboutUsSecondary{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 30px;
+@media screen and (max-width: 990px)
+        {
+          
+          /*About Us section*/
+          #containerAboutUs {
+            height:auto;
+          }
+          
+          #containerAboutUsSecondary{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
 
-    }
+          }
 
-    #containerAboutUsText{
-      width: 100%;
-    }
+          #carouselAboutUs{
+              width: 100%;
+              
+          }
+          #carouselAboutUs img{
 
-    #containerCategoriesSection{
-      height:auto;
-    }
+            max-height: 500px;
+          }
 
+          #containerAboutUsText{
+            width: 100%;
+          }
+
+          /*Categories section*/
+          #containerCategoriesSection{
+            height:auto;
+          }
+
+          #cardDeckCategories{
+            display: inline-block;
+            width: 60%;
+          }
+
+          .cardCategories{
+
+            margin-bottom: 15px !important;
+        
+          }
+
+          .imgCardCategories{
+
+            height: 300px;
+
+          
+          }
+          /*Paintings section*/
+          #containerPaintingsSection{
+            height:675px;
+          }
+
+          #charcoalPaintingsSlider{
+            float: center;
+          }
+
+          .item-a{
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .paintingsCard{
+            width: 300px;
+          }
+
+          #charcoalPaintingsSlider{
+            text-align: center;
+            
+          }
+  }
+
+
+  @media screen and (min-width: 990px) and (min-height: 508px){
     #cardDeckCategories{
-      display: inline-block;
-      width: 60%;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
     }
-
-    .cardCategories{
-
-      margin-bottom: 15px !important;
-   
-    }
-
-    .imgCardCategories{
-
-      height: 300px;
-
-    
-    }
-
-
   }
 
-
-@media only screen and (min-width: 991px){
-  #cardDeckCategories{
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-}
-
-
-@media only screen and (max-width: 450px){
+@media screen and (max-width: 450px){
 
   #cardDeckCategories{
     width: 100%;

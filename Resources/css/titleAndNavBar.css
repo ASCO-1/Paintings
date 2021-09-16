@@ -17,15 +17,25 @@
 }
 
 /*Navigation bar*/
-#navigationBarContainer {
-    display: flex;
+#navigationBarContainer{
+    display: inline-block;
     justify-content: center;
     align-items: center;
     background-color: #2B2A2A;
     max-width: 100%;
 }
 
-#navigationBarContainer .navigationBarLists a{
+#navigationBarInnerContainerBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+}
+
+.navbar-toggler-right{
+    display:none;
+}
+#navigationBarInnerContainerBottom .navigationBarLists a{
 
     color: #8c8b87;
     text-decoration: none;
@@ -44,7 +54,7 @@
     padding: 0px 20px;
 }
 
-#navigationBarContainer .navigationBarLists a:hover{
+#navigationBarInnerContainerBottom .navigationBarLists a:hover{
 
     color: white;
     

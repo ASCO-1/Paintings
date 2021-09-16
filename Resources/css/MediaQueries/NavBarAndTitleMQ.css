@@ -1,0 +1,43 @@
+@media screen and (max-width: 990px){
+
+    /*Navigation bar container*/
+
+    /*Navigation bar inner top*/
+    .navigationBarInnerContainerTop{
+        display:block;
+        width: 100%;
+        height: auto;
+    }
+    .navbar-toggler{
+        width: 100%;
+        background-color: #2B2A2A;
+        height:auto;
+        border: none;
+    }
+
+        /*Navbar toggler icons*/
+        .navbar-toggler-icon{
+            height: auto;
+        }
+
+        .fa-bars{
+            font-size: 4vw;
+            color: #8c8b87;;
+        }
+
+        .fa-bars:hover{
+            color: white;
+        }
+
+    /*Navigation bar inner bottom*/
+    .navigationBarLists{
+        display:flex;
+    }
+    
+    .navigationBarLists{
+        display: block;
+        padding: 0px;
+    }
+    
+
+}

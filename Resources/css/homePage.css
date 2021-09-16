@@ -6,7 +6,7 @@ html{
 /*Main carousel*/
 #carouselMain img{
 
-    height:100vh;
+    height: 100vmax;
     width : 100%;
     
   }
@@ -22,6 +22,7 @@ html{
 #containerAboutUs{
 
   height: 100vh;
+  min-height: 675px;
 }
 
 /*About Us secondary container*/
@@ -35,7 +36,7 @@ html{
 #containerAboutUsText{
   width:45%;
   font-size: 2.5vw;
-  font-size: 4vh;
+  /* font-size: 4vh; */
   text-align:justify;
   display: flex;
   flex-direction: column;
@@ -63,11 +64,10 @@ html{
   object-fit: fit;
 }
 
-
 /*Categories section*/
 #containerCategoriesSection{
   height: 100vh;
-  border: 2px solid blue;
+  min-height: 675px;
 }
 
 #containerCategories{
@@ -79,7 +79,7 @@ html{
 
 .imgCardCategories{
 
-  max-height: 250px;
+  max-height: 275px;
   width: auto;
 
 }
@@ -92,12 +92,152 @@ html{
 #containerPaintingsSection{
   height: 100vh;
   border: 2px solid yellow;
+  min-height: 675px;
+
+}
+
+#paintingsCategoryButtons{
+  margin-bottom: 15px;
+}
+
+#paintingsCategoryDiv{
+  border: 2px solid red;
+  height: 75%;
+}
+
+/*Paintings charcoal sectin*/
+#paintingsCharcoalSection{
+  background-color: blue;
+  height: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+#paintingsCharcoalSectionInner{
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid green;
+
 }
 
 
+
+
+/*pen section*/
+#paintingsPenSection{
+  background-color: yellow;
+  height: 100%;
+  width: 100%;
+  display:none;
+  
+}
+
+#paintingsPencilsSection{
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+
+
+
+/*-----------------------------------------------------*/
+#charcoalPaintingsSlider{
+
+  list-style: none;
+  border: 2px solid yellow;
+}
+.item-a{
+  height: 88%;
+  border: 10px solid orange;
+  
+}
+.paintingsCard{
+
+  height: 100%;
+  cursor: pointer;
+  border: 4px solid red;
+}
+
+.paintingsCard img{
+  height: 60%;
+  object-fit: fill;
+} 
+
+.paintingsCardbody{
+  position: static;
+  
+}
+.paintingsCardTitle{
+  font-size: 1.5vw;
+}
+.paintingsCardbody h5{
+  margin-bottom: 1px;
+}
+
+.paintingsCardbody p{
+  margin-bottom: 2px;
+}
+
+.paintingsCardText{
+  font-size: 1vw;
+}
+
+.paintingsBodyInner{
+  height: 100%;
+  margin: 0;
+  position: static;
+}
+
+.orderNowBtn{
+  position: static;
+  font-size: 1vw;
+}
 
 /*Contact Us section*/
 #containerContactUsSection{
   height: 100vh;
   border: 2px solid red;
 }
+
+  /*containerForFormAndEmail*/
+  #containerFormAndEmail{
+    width: 100%;
+    height: 85%;
+    border: 3px solid green;
+    display: flex;
+    justify-content: space-between;
+  }
+
+    /*containerForForm*/
+    #formContainer{
+      width: 60%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+      /*form*/
+      #formContactUs{
+        height: fit-content;
+        width: 100%;
+        
+      }
+
+        /*submit button*/
+        #buttonSubmitOfContactUs{
+          margin-top: 10px;
+        }
+
+    /*containerForEmail*/
+    #emailContainer{
+      width: 32%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
